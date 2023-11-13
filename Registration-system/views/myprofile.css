@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;800&family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro' , sans-serif;
+
+}
+
+
+/*nav-bar*/
+
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+
+
+}
+nav{
+	box-shadow: 5px 2px 150px rgba(0, 0, 0, 0.471);
+}
+
+.nav-con{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 5px;
+	height: 60px;
+	
+}
+
+.menu{
+	display: flex;
+	color: black;
+}
+
+.menu li{
+	list-style: none;
+	margin-left: 1rem;
+	font-weight: 500;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.logo a{
+	font-weight:800;
+	font-size: 1.5rem;
+}
+
+#second{
+	color:#AE15EE;
+
+}
+
+/*end nav-bar*/
+
+/* Style for user details */
+.detail-user-box {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.detail-user-box p {
+    margin: 0;
+}
+
+/* Style for edit phone form */
+.edit-phone-form {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+}
+
+.edit-phone-form h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.edit_phone_form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.edit_phone_form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+.edit_phone_form input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit_phone_form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.myprofile-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 25%;
+    
+
+}
+.myprofile-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #ffffff;
+    height: 100vh;
+    align-items: center;
+}
+
+
+
+
+
+/*footer*/
+
+.footer{
+	width: 100%;
+	background: #EFEFEF;
+	height: 60vh;
+}
+.footer-container{
+	height: 100%;
+	display: grid;
+	align-items: end;
+}
+
+.info-footer-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	
+	
+}
+.info-footer-column-f,.info-footer-column-b,.info-footer-column-l{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	max-width: 400px;
+	margin: 1rem;
+}
+
+.info-footer-row p,h3,h4{
+	padding-top: 20px;
+}
+
+
+.copyright-footer{
+	background: #AE15EE;
+	width: 100%;
+	color: #ffffff;
+	padding: 1rem;
+}
+
+/*end footer*/

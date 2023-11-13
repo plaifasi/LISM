@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;800&family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro' , sans-serif;
+
+}
+
+/* Reset default margin and padding for the entire page */
+
+.title_overview{
+    padding: 1rem;
+    text-align: start;
+}
+.title_overview h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.overview-all {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 5rem;
+    background-color: #f2f2f2;
+    flex-direction: column;
+}
+
+.overview-box {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+    overflow: hidden;
+}
+
+.overview-container {
+    padding: 20px;
+}
+
+/* Styling for the form and its sections */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Common styling for form sections */
+.form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form input[type="text"],
+.form select,
+.form input[type="file"],
+.form input[type="date"],
+.form input[type="number"] {
+    padding: 12px 20px;
+  	margin: 8px 0;
+  	border: 1px solid #C5C5C5;
+  	border-radius: 1.5px;
+}
+
+.form input[type="file"] {
+    margin-top: 10px;
+}
+
+/* Styling for form sections using flexbox */
+.title,.destination,.description,.img,.file {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+  	margin: 8px 0;
+}
+
+#title_package,#description,#img,#file,#vehicle_package,#hotel_package {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+  	margin: 8px 0;
+}
+
+#description_package{
+    padding: 5px 10px;
+  	height: 200px;
+}
+
+
+
+
+
+/* Styling for the "Sessions" section */
+#sessions {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+  	margin: 8px 0;
+}
+
+.session {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.session input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* Styling for buttons */
+.btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+  	margin: 8px 0;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Styling for the "Add Session" button */
+button[type="button"] {
+    background-color: #AE15EE;
+}
+
+button[type="submit"] {
+    background-color: #AE15EE;
+}
+

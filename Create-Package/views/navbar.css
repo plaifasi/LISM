@@ -1,0 +1,48 @@
+/*nav-bar*/
+
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+
+
+}
+nav{
+	box-shadow: 5px 2px 150px rgba(0, 0, 0, 0.471);
+}
+
+.nav-con{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 5px;
+	height: 60px;
+	
+}
+
+.menu{
+	display: flex;
+	color: black;
+}
+
+.menu li{
+	list-style: none;
+	margin-left: 1rem;
+	font-weight: 500;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.logo a{
+	font-weight:800;
+	font-size: 1.5rem;
+}
+
+#second{
+	color:#AE15EE;
+
+}
+
+/*end nav-bar*/

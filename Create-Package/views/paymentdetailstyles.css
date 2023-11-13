@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;800&family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro' , sans-serif;
+	
+}
+
+
+/*nav-bar*/
+
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+
+
+}
+nav{
+	box-shadow: 5px 2px 150px rgba(0, 0, 0, 0.471);
+}
+
+.nav-con{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	height: 60px;
+	
+}
+
+.menu{
+	display: flex;
+	color: black;
+}
+
+.menu li{
+	list-style: none;
+	margin-left: 1rem;
+	font-weight: 500;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.logo a{
+	font-weight:800;
+	font-size: 1.5rem;
+}
+
+#second{
+	color:#AE15EE;
+
+}
+
+/*end nav-bar*/
+
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ffffff;
+}
+
+table th{
+    border: 1px solid #ffffff;
+    padding: 8px;
+    background: #AE15EE;
+    
+}
+
+table td {
+    border: 1px solid #ffffff;
+    padding: 1.5rem;
+}
+a.approved-btn,a.declined-btn{
+    margin: 15px;
+    text-decoration: none;
+	border: 1px solid #AE15EE;
+    color: #AE15EE; /* Link color */
+	border-radius: 5px;
+	padding: 10px;
+	width: 10rem;
+	text-align: center;
+}
+/* Add more CSS styles as needed */
+
+
+
+/*footer*/
+
+.footer{
+	width: 100%;
+	background: #EFEFEF;
+	height: 60vh;
+}
+.footer-container{
+	height: 100%;
+	display: grid;
+	align-items: end;
+}
+
+.info-footer-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	
+	
+}
+.info-footer-column-f,.info-footer-column-b,.info-footer-column-l{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	max-width: 400px;
+	margin: 1rem;
+}
+
+.info-footer-row p,h3{
+	padding-top: 20px;
+}
+
+
+.copyright-footer{
+	background: #AE15EE;
+	width: 100%;
+	color: #ffffff;
+	padding: 1rem;
+}
+
+/*end footer*/

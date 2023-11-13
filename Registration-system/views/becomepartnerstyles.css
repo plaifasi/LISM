@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;800&family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&display=swap');
+
+
+* {
+	font-family: 'Be Vietnam Pro' , sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+.become{
+	height: 130vh;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.become-container{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.last{
+	display: flex;
+	align-items: flex-end;
+	padding: 2rem;
+}
+.become-form{
+	display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.back-btn{
+	padding: 2rem;
+	color: #AE15EE;
+}
+
+.Long-box{
+	max-width: 100%;
+}
+
+.Long-box .Long-box {
+	width: 100%;
+	padding: 12px 20px;
+  	margin: 8px 0;
+  	border: 1px solid #C5C5C5;
+  	border-radius: 1.5px;
+}
+
+.form-small-box-container{
+    display: flex;
+    padding: 1rem 0;
+    /* width: 50%; */
+    /* flex-direction: row; */
+    justify-content: space-around;
+}
+
+.small-box .small-box{
+   width: 100%;
+   padding: 12px 20px;
+   border: 1px solid #C5C5C5;
+
+}
+.container-row-small-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.small-box{
+    padding: 1rem 0;
+}
+.form-box-become{
+	width: 50%;
+}
+
+.becomepartner_btn {
+	cursor: pointer;
+	color: #ffff;
+	padding: 10px 20px;
+  	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #AE15EE;
+	width: 100%;
+	border:none;
+
+}
+
+.head-become{
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+}
+.head-become a{
+	font-weight:800;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: black;
+}
+
+#second{
+	color:#AE15EE;
+}
+
+h2{
+	padding: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .container-row-small-box{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form-small-box-first{
+        width: 100%;
+    }
+    .form-small-box-second{
+        width: 100%;
+    }
+}

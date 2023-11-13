@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;800&family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro' , sans-serif;
+	
+}
+
+
+/*nav-bar*/
+
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+
+
+}
+nav{
+	box-shadow: 5px 2px 150px rgba(0, 0, 0, 0.471);
+}
+
+.nav-con{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	height: 60px;
+	
+}
+
+.menu{
+	display: flex;
+	color: black;
+}
+
+.menu li{
+	list-style: none;
+	margin-left: 1rem;
+	font-weight: 500;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.logo a{
+	font-weight:800;
+	font-size: 1.5rem;
+}
+
+#second{
+	color:#AE15EE;
+
+}
+
+/*end nav-bar*/
+
+
+.content-box{
+    width: 100%;
+    background: #F5F5F5;
+}
+.content-box-container{
+    display: flex;
+    height: 100%;
+    padding: 2rem;
+}
+.content-box-row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+	flex-wrap:wrap;
+	align-content: flex-start;
+}
+.content-box-split{
+	display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+	flex-wrap:wrap;
+	align-content: flex-start;
+}
+.package{
+	background: #ffffff;
+    max-width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #C5C5C5;
+    margin: 1rem;
+    justify-content: space-evenly;
+}
+
+
+
+.funtion, .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+.icon-head,.create-btn{
+	margin: 1rem;
+}
+
+.icon-head{
+	font-size: 128px;
+    padding: 1rem;
+}
+
+
+.create-btn a{
+    cursor: pointer;
+	color: #ffffff;
+	direction: none;
+	padding: 10px 20px;
+  	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #AE15EE;
+	width: 100%;
+}
+
+
+
+.funtion i{
+    margin: 10px;
+}
+
+.package-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	max-width: 15rem;
+	max-height: 18rem;
+}
+
+.title-package {
+	text-wrap: wrap;
+	width: 100%;
+	height: 100%;
+}
+
+.description-package p{
+	text-wrap: wrap;
+	height: 100%;
+	width: 100%;
+}
+
+.img-package{
+	background: url('../src/R.jpg');
+	width: 100%;
+	height: 50%;
+}
+
+.carousel .card {
+	scroll-snap-align: start;
+	list-style: none;
+	max-width: 350px;
+	box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.115);;
+	background: #ffffff;
+  }
+
+.card-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.card-content{
+	padding: 0px 14px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.card-img{
+	position:relative;
+	max-height: 50%;
+	width: 100%;
+}
+
+.card-img .card-img{
+	height: 50%;
+	width: 100%;
+	object-fit:contain;
+}
+.card-content h4{
+	font-family: 'Kanit', sans-serif;
+	font-size: 0.8rem;
+	width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.card-content p,span{
+	font-family: 'Kanit', sans-serif;
+	font-size: 0.6rem;
+	display: block;
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.status-label{
+	text-align: end;
+	font-family: 'Kanit', sans-serif;
+}
+
+.btn-card{
+	cursor: pointer;
+	color: #ffff;
+	direction: none;
+	padding: 10px 20px;
+  	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	justify-content: center;
+}
+.btn-card a{
+	background: #AE15EE;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+.footer{
+	width: 100%;
+	background: #EFEFEF;
+	height: 60vh;
+}
+.footer-container{
+	height: 100%;
+	display: grid;
+	align-items: end;
+}
+
+.info-footer-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	
+	
+}
+.info-footer-column-f,.info-footer-column-b,.info-footer-column-l{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	max-width: 400px;
+	margin: 1rem;
+}
+
+.info-footer-row p,h3{
+	padding-top: 20px;
+}
+
+
+.copyright-footer{
+	background: #AE15EE;
+	width: 100%;
+	color: #ffffff;
+	padding: 1rem;
+}
+
+/*end footer*/

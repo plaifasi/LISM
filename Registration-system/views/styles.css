@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;800&family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&display=swap');
+
+
+* {
+	font-family: 'Be Vietnam Pro' , sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*hero*/
+
+.hero{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(45deg,rgb(255, 255, 255),rgba(255, 255, 255, 0.175)	),url('../src/img/R.jpg') no-repeat center / cover;
+}
+.container-hero{
+	width: 90%;
+	height: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items:flex-start;
+}
+
+/*hero-banner-booking*/
+.box-booking{
+	background:rgb(255, 255, 255);
+	width: 100%;
+	align-items: normal;
+}
+.container-box-booking{
+	max-width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.214);
+}
+.form-box{
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+
+}
+
+.destination-box{
+	max-width: 100%;
+	margin-inline: 10px;
+}
+
+.destination-box .destination{
+	width: 100%;
+	padding: 12px 20px;
+  	margin: 8px 0;
+  	border: 1px solid #C5C5C5;
+  	border-radius: 1.5px;
+}
+
+.checkinout-box {
+	max-width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 10px;
+}
+.checkinout-box .checkin,.checkout{
+	width: 50%;
+	padding: 12px 20px;
+  	border: 1px solid #C5C5C5;
+  	border-radius: 1.5px;
+}
+.checkinout-box .checkin{
+	margin-right: 10px;
+}
+
+
+
+#search-button{
+	min-width: 50%;
+  	border: none;
+  	color: white;
+  	padding: 16px 32px;
+  	text-decoration: none;
+  	cursor: pointer;
+  	background-color: #AE15EE;
+  	transform: translate(0,25px);
+	align-self: center;
+}
+
+/*end hero-banner-booking*/
+
+/*end hero*/
+
+/*popular card*/
+.Popular ,.Recommendation{
+	padding: 0 35px;
+	min-height: 90vh;
+	display: flex;
+	flex-direction: column;
+
+	justify-content: center;
+}
+
+.wrapper {
+	max-width: 1100px;
+	width: 100%;
+	position: relative;
+  }
+  .wrapper i {
+	top: 50%;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	font-size: 1.25rem;
+	position: absolute;
+	text-align: center;
+	line-height: 50px;
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+	transform: translateY(-50%);
+	transition: transform 0.1s linear;
+  }
+  .wrapper i:active{
+	transform: translateY(-50%) scale(0.85);
+  }
+  .wrapper i:first-child{
+	left: -22px;
+  }
+  .wrapper i:last-child{
+	right: -22px;
+  }
+  .wrapper .carousel{
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: calc((100% / 3) - 12px);
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	gap: 16px;
+	scroll-behavior: smooth;
+	scrollbar-width: none;
+	align-items: center;
+	justify-content: center;
+  }
+  .carousel::-webkit-scrollbar {
+	display: none;
+  }
+  .carousel.no-transition {
+	scroll-behavior: auto;
+  }
+  .carousel.dragging {
+	scroll-snap-type: none;
+	scroll-behavior: auto;
+  }
+  .carousel.dragging .card {
+	cursor: grab;
+	user-select: none;
+  }
+  .carousel .card {
+	scroll-snap-align: start;
+	list-style: none;
+	max-width: 350px;
+	box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.115);;
+	background: #ffffff;
+  }
+
+.card-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.card-content{
+	padding: 10px 14px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.card-img{
+	position:relative;
+	width: 100%;
+}
+
+.card-img .card-img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.card-content h2,p{
+	font-family: 'Kanit', sans-serif;
+}
+.card-content h2{
+	font-family: 'Kanit', sans-serif;
+	font-size: 1rem;
+	width: 320px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.card-content p,span{
+	font-family: 'Kanit', sans-serif;
+	font-size: 0.8rem;
+	width: 320px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.card-head h2{
+	padding: 35px;
+	font-size: 40px;
+	
+}
+.btn-card{
+	cursor: pointer;
+	color: #ffff;
+	direction: none;
+	padding: 10px 20px;
+  	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	justify-content: center;
+}
+.btn-card a{
+	background: #AE15EE;
+}
+  
+/*end caed*/
+
+/*footer*/
+
+.footer{
+	width: 100%;
+	background: #EFEFEF;
+	height: 60vh;
+}
+.footer-container{
+	height: 100%;
+	display: grid;
+	align-items: end;
+}
+
+.info-footer-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	
+	
+}
+.info-footer-column-f,.info-footer-column-b,.info-footer-column-l{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	max-width: 400px;
+	margin: 1rem;
+}
+
+.info-footer-row p,h3,h4{
+	padding-top: 20px;
+}
+
+
+.copyright-footer{
+	background: #AE15EE;
+	width: 100%;
+	color: #ffffff;
+	padding: 1rem;
+}
+
+/*end footer*/
+
+
+
+/*icon input*/
+
+/*.icon-container .icon{
+	position: absolute;
+	bottom: 13rem;
+	font-size: 20px;
+}*/
+
+.icon-container input[type=text]{
+	padding-left: 40px;
+}
+
+.icon-container {
+	position: relative;
+    width: 100%;
+
+}
+
+.icon-container i{
+	position: absolute;
+	left: 15px;
+	top:9px;
+	padding: 9px 8px;
+	font-size: 20px;
+}
+
+.a{
+	display: flex;
+	flex-direction: row;
+}
+
+
+/* Hide the default date picker arrow */
+input[type="date"]::-webkit-calendar-picker-indicator {
+	opacity: 1;
+	
+}
+
+/* Hide the default placeholder */
+.custom-date-input::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Ensure the input is still clickable */
+}
+
+/* Optionally, style the text color to match your design */
+.custom-date-input {
+    color:#AE15EE; /* Change to your desired text color */
+	
+}
+
+input[type="date"] {
+    color: black; /* Make the text transparent */
+    background: url('../src/calendar.png'); /* Set the background color */
+	background-repeat: no-repeat;
+	background-position: 5%;
+	padding: 12px 20px;
+  	margin: 8px 0;
+  	border: 1px solid #C5C5C5;
+  	border-radius: 1.5px;
+}
+
+
+
+
+
+
+/*respond nav-bar*/
+
+
+@media screen and (max-width: 900px) {
+	.wrapper .carousel {
+	  grid-auto-columns: calc((100% / 2) - 9px);
+	}
+	.info-footer{
+		padding: 2rem;
+	}
+  }
+  @media screen and (max-width: 600px) {
+	.wrapper .carousel {
+	  grid-auto-columns: 100%;
+	}
+	.info-footer-row{
+		display: flex;
+		flex-direction: column;
+	}
+	.footer{
+		height: 100vh;
+	}
+  }
+
+  

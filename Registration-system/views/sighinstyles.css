@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;800&family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&display=swap');
+
+
+* {
+	font-family: 'Be Vietnam Pro' , sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.sigh-in{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.sigh-in-container{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.last{
+	display: flex;
+	align-items: flex-end;
+	padding: 2rem;
+}
+.sigh-in-form{
+	display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-of-oftion{
+	display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+}
+
+.opt-face,.opt-apple ,.opt-twitter{
+	width: 100px;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	border:2px solid black;
+	margin: 2rem;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.back-btn{
+	padding: 2rem;
+	color: #AE15EE;
+}
+
+.email-box{
+	max-width: 100%;
+}
+
+.email-box .email-address{
+	width: 100%;
+	padding: 12px 20px;
+  	margin: 8px 0;
+  	border: 1px solid #C5C5C5;
+  	border-radius: 1.5px;
+}
+
+.form-box-sigh-in{
+	width: 50%;
+}
+
+.sigh-in-button{
+	cursor: pointer;
+	color: #ffffff;
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #AE15EE;
+	width: 100%;
+	border: none;
+}
+
+
+.line-betaween h2{
+	font-weight: 400;
+	font-size: 1rem;
+	padding: 2rem;
+}
+
+.head-sigh-in{
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+}
+.head-sigh-in a{
+	font-weight:800;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: black;
+}
+
+#second{
+	color:#AE15EE;
+}
+
+h2{
+	padding: 1rem;
+}
